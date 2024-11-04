@@ -8,7 +8,7 @@ main h2 {
     text-align: center;
     font-weight: 1;
     font-size: 30px;
-    padding-top: 15px;
+    padding-top: 150px;
 }
 /* Design dreams come true text*/
 section h1{
@@ -25,7 +25,13 @@ section h3{
 }
 
 
-
+Div h4 {
+    color: #fff;
+    text-align:left;
+    font-weight: 1;
+    font-size: 30px;
+    padding-top: 250px;
+}
 /* Header styling */
 header {
     display: flex;
@@ -36,43 +42,42 @@ header {
     color: #fff;
 }
 
+
+/* Navigation styling */
 .logo {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-/* Navigation styling */
 nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
 }
-
 nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     transition: background 0.3s;
 }
-
 nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
 }
 
+
+/*Background image adjustment*/
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden; /* Prevents scrolling */
 }
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
 figure {
     background-size: cover;
     background-position: center;
@@ -84,18 +89,18 @@ figure {
     height: 100vh;
     overflow: hidden;
 }
- 
-/* Overlay for readability */
 figure {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     z-index: -1; /* Places the overlay behind content */
 }
  
+
+/*Footer*/
 footer {
     text-decoration: none;
     text-align: center;
