@@ -1,4 +1,5 @@
 body {
+    background-color: #555;
     font-family: Arial, sans-serif;
 }
 
@@ -95,3 +96,8 @@ figure {
     z-index: -1; /* Places the overlay behind content */
 }
  
+footer {
+    text-decoration: none;
+    text-align: center;
+    bottom: 0;
+}
